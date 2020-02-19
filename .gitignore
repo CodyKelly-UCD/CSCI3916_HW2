@@ -1,7 +1,7 @@
 # npm debugging logs
 npm-debug.log*
 # project dependencies
-node_modules
+./node_modules
 # OSX folder attributes
 .DS_Store
 # temporary files
@@ -12,6 +12,8 @@ dist/
 public/dist/
 
 # See http://help.github.com/ignore-files/ for more about ignoring files.
+
+*.code-workspace
 
 # compiled output
 /dist
